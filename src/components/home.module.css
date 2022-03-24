@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&family=Open+Sans&family=Roboto:ital,wght@0,300;1,300&family=Smooch+Sans&family=Work+Sans:ital,wght@1,300&display=swap');
+
+body{
+    background-color: #FAEBFC;
+
+
+}
+
+
+
+h1{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.main{
+    width: 25%;
+    margin: 100px auto 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.subitems{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.inputbox{
+    background-color: #1C1D21;
+    padding: 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.input1{
+    background-color: #1C1D21;
+    color: antiquewhite;
+    border: none;
+}
+
+.input1,
+.input1::-webkit-input-placeholder {
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+   
+}
+
+
+.input1:focus {
+  border: none
+}
+
+.sub{
+    background-color: #F08420;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    color: white;
+}
+
+.asd{
+    width:30%;
+    height: 32px;
+    background-color: black;
+    margin-bottom: 20px;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
+   transform: rotateX(-76deg);
+   border-radius: 50px;
+   margin-top: 25px;
+   padding-left: 16px;
+
+}
